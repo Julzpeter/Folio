@@ -187,7 +187,7 @@ html, body {
 #tool-box h2 {
     font-size: 40px;
     font-weight: bold;
-    color: var(--grey);
+    /* color: var(--grey); */
     font-family: 'Exo', sans-serif;
 }
 
@@ -205,7 +205,7 @@ html, body {
 }
 
 .tools {
-    background-color: #25343d;
+    background-color:grey;
     border-radius: 5px;
     text-align: center;
     position: relative;
