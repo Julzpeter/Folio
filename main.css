@@ -150,12 +150,15 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #25343d;
+    background-image: url("images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: fixed; */
 }
 
 #welcome-section h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bold;
     color: white;
     line-height: 60px;
@@ -245,26 +248,21 @@ html, body {
 
 /*Projects*/
 
-
-
 #projects {
     display: flex;
     flex-direction: column;
-
-height: auto;
-
-justify-content: center;
+    height: auto;
+    justify-content: center;
     align-items: center;
     margin-top: 30px;
-} 
+}
+
 #projects-anchor {
     display: block;
     height: 50px;
-
-margin-top: -50px;
-visibility: hidden;
+    margin-top: -50px;
+    visibility: hidden;
 }
-
 
 #projects h2 {
     font-size: 40px;
@@ -273,14 +271,14 @@ visibility: hidden;
     font-family: 'Exo', sans-serif;
 }
 
- #projects h2 span {
+#projects h2 span {
     color: var(--purple);
     text-decoration: underline;
-} 
+}
 
 .projects {
     display: grid;
-    width: 80%;
+    width: 150%;
     margin-top: 30px;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 30px;
@@ -299,9 +297,11 @@ visibility: hidden;
     top: -3px;
 }
 
-.project-tile img {
+.project-title img {
     border-radius: 7px;
     margin-bottom: 10px;
+    height: 200%;
+    width: 200%;
 }
 
 .projects p a {
@@ -313,42 +313,55 @@ visibility: hidden;
 
 /*Contacts*/
 
-#contact {
+/* #contact {
     height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
-#contact h2 {
+/* #contact h2 {
     font-size: 40px;
     font-weight: bold;
     line-height: 50px;
     font-family: 'Exo', sans-serif;
     color: var(--grey);
     margin-bottom: 30px;
-}
+} */
 
-#contact h2 span {
+/* #contact h2 span {
     color: var(--purple);
     text-decoration: underline;
-}
+} */
 
-#contact p a {
+/* #contact p a {
     text-decoration: none;
-}
+} */
 
-#contact p {
+/* #contact p {
     font-size: 35px;
     line-height: 30px;
     font-weight: bold;
     margin-bottom: 30px;
-}
+} */
 
-#contact p a {
+/* #contact p a {
     color: black;
-}
+} */
+
+/* .contacts {
+    background: #F7F7FF;
+} */
+
+/* .contacts h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 900;
+    padding: .6rem 1em;
+    ;
+    letter-spacing: 4px;
+} */
 
 .social {
     margin-top: 30px;
@@ -393,33 +406,34 @@ footer a {
     color: white;
 }
 
-/*project2*/
-
 /* .projects {
     background: #F7F7FF;
-}
+} */
 
-.projects h3 {
+/* .projects h3 {
     text-align: center;
     text-transform: capitalize;
     font-weight: 900;
     padding: .6rem 1em;
     ;
     letter-spacing: 4px;
-}
+} */
 
-#projects .row {
+/* #projects .row {
     top: 0;
     bottom: 0;
     margin: 0;
     padding: 0;
-    /* margin-bottom: 1.3em; */
-    /* padding-bottom: 1em;
-}
+    margin-bottom: 1.3em;
+
+padding-bottom: 1em;
+} */
 
 #projects1 {
     margin-bottom: 1.3em;
-} */ *
+    /* height: 200%;
+    width: 200%; */
+}
 
 /*media queries*/
 
