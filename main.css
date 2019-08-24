@@ -262,6 +262,7 @@ html, body {
     height: 50px;
     margin-top: -50px;
     visibility: hidden;
+    text-align: center;
 }
 
 #projects h2 {
@@ -313,55 +314,55 @@ html, body {
 
 /*Contacts*/
 
-/* #contact {
+#contact {
     height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-} */
+}
 
-/* #contact h2 {
+#contact h2 {
     font-size: 40px;
     font-weight: bold;
     line-height: 50px;
     font-family: 'Exo', sans-serif;
     color: var(--grey);
     margin-bottom: 30px;
-} */
+}
 
-/* #contact h2 span {
+#contact h2 span {
     color: var(--purple);
     text-decoration: underline;
-} */
+}
 
-/* #contact p a {
+#contact p a {
     text-decoration: none;
-} */
+}
 
 /* #contact p {
-    font-size: 35px;
-    line-height: 30px;
+    font-size: 10px;
+    line-height: 5px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 } */
 
-/* #contact p a {
+#contacts p a {
     color: black;
-} */
+}
 
-/* .contacts {
+.contacts {
     background: #F7F7FF;
-} */
+}
 
-/* .contacts h3 {
+.contacts h3 {
     text-align: center;
     text-transform: capitalize;
     font-weight: 900;
     padding: .6rem 1em;
     ;
     letter-spacing: 4px;
-} */
+}
 
 .social {
     margin-top: 30px;
@@ -410,14 +411,14 @@ footer a {
     background: #F7F7FF;
 } */
 
-/* .projects h3 {
+.projects h3 {
     text-align: center;
     text-transform: capitalize;
     font-weight: 900;
     padding: .6rem 1em;
     ;
     letter-spacing: 4px;
-} */
+}
 
 /* #projects .row {
     top: 0;
